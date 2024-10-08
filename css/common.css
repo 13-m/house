@@ -70,3 +70,9 @@ body.lock {
 .none {
   display: none;
 }
+
+.miama {
+  font-family: "Miama Nueva", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
