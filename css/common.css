@@ -1,3 +1,10 @@
+:root {
+  --font-family: "Futura PT", Arial, Helvetica, sans-serif;
+  --second-family: "Miama Nueva", Arial, Helvetica, sans-serif;
+  --color: #e5ae78;
+  --text-color: #3e352e;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,8 +15,10 @@ html {
 }
 
 body {
-  color: #1f1f1d;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  /* background-color: #3e352e; */
+  background-color: #181d23;
+  font-family: var(--font-family);
 }
 
 h1,
@@ -40,16 +49,12 @@ a {
   text-decoration: none;
 }
 
-/* container {
-  font-family: "Inter", "Geologica", "CoFo Sans";
-} */
-
 body.lock-scroll {
   overflow: hidden;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1720px;
   margin: 0 auto;
 }
 
@@ -75,4 +80,69 @@ body.lock {
   font-family: "Miama Nueva", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-style: italic;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+}
+
+/* каждый элемент уникальный */
+.grid-s-2 {
+  grid-column: span 2;
+}
+.grid-item {
+}
+
+.title {
+  position: relative;
+  font-size: 75px;
+  font-weight: 300;
+  line-height: 75px;
+  text-transform: uppercase;
+}
+
+.title span {
+  color: var(--color);
+  font-weight: 500;
+}
+
+.politic {
+  color: #dba06fe5;
+}
+
+.input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #3e352e;
+}
+
+.input::placeholder {
+  color: #3e352e;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.label-input {
+  padding: 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 44px;
+}
+
+.label-input:nth-of-type(3) {
+  margin-bottom: 30px;
+}
+
+.label-agree {
+  margin-bottom: 30px;
+}
+
+.label-agree {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 35px;
+  color: #3e352e;
 }

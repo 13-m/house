@@ -8,45 +8,508 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/lib-style.css" />
     <title>House</title>
   </head>
   <body>
     <header>
-      <div class="container header__container">
-        <button class="burger" id="burger"></button>
-        <address class="header__address">
-          <p class="header__desc">Всеволожск, улица Камышовая&nbsp;17</p>
-        </address>
-        <a class="header__link-phone" href="tel:+7 (812) 670-10-70"
-          >+7 (812) 670-10-70</a
-        >
-        <a class="header__link-mail" href="mailto:info@dommechty.ru"
-          >info@dommechty.ru</a
-        >
-        <ul class="header__list">
-          <li class="header__item"><a href="#"></a></li>
-          <li class="header__item"><a href="#"></a></li>
-          <li class="header__item"><a href="#"></a></li>
-        </ul>
-        <button class="header__btn">Оставить заявку</button>
+      <div class="header__container">
+        <div class="grid-item-1">
+          <button class="burger" id="burger">
+            <div class="burger__wrapp">
+              <span class="burger__span-1"></span>
+              <span class="burger__span-2"></span>
+            </div>
+            <p class="burger__text">меню</p>
+          </button>
+        </div>
+        <div class="grid-item-2">
+          <address class="header__address">
+            <p class="header__desc">Всеволожск, улица Камышовая&nbsp;17</p>
+          </address>
+          <a class="header__link-phone" href="tel:+7 (812) 670-10-70"
+            >+7 (812) 670-10-70</a
+          >
+          <a class="header__link-mail" href="mailto:info@dommechty.ru"
+            >info@dommechty.ru</a
+          >
+          <ul class="header__list">
+            <li class="header__item"><a href="#"></a></li>
+            <li class="header__item"><a href="#"></a></li>
+            <li class="header__item"><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="grid-item-1">
+          <button class="header__btn">Оставить заявку</button>
+        </div>
       </div>
     </header>
     <main>
-      <section class="view"></section>
-      <section class="about"></section>
-      <section class="video"></section>
-      <section class="info1"></section>
-      <section class="variable"></section>
-      <section class="report"></section>
-      <section class="work"></section>
-      <section class="info2"></section>
-      <section class="request"></section>
-      <section class="review"></section>
-      <section class="material"></section>
-      .
-      <div class="main__container container">
-        <h1>Загородный дом</h1>
-      </div>
+      <section class="view grid-container">
+        <div class="view-bg grid-container">
+          <div class="grid-item"></div>
+          <div class="grid-s-2"></div>
+        </div>
+        <div class="grid-s-2">
+          <h1 class="view__title">Загородный <span>дом</span></h1>
+          <p class="view__desc">
+            На&nbsp;завершающей стадии строительства
+            <span>в&nbsp;15&nbsp;минутах от&nbsp;Санкт-Петербурга</span>
+          </p>
+        </div>
+        <div class="grid-item">
+          <div class="view__wrapp">
+            <p class="view__card-text">
+              Большой зеленый и&nbsp;ровный участок в&nbsp;21&nbsp;сотку
+            </p>
+            <div class="view__inner-btn">
+              <button class="view__btn"></button>
+              <button class="view__btn"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work--1">
+        <div class="work--1__container container">
+          <h2 class="work-1__title title">
+            Это теплый и&nbsp;надежный дoм
+            <span> 900м&sup2; на&nbsp;участке в&nbsp;21&nbsp;сотку </span>
+            построенный по&nbsp;уникальному проекту
+          </h2>
+        </div>
+        <div class="grid-container">
+          <div class="grid-s-2">
+            <div class="work-1__inner-text">
+              <h3 class="work-1__subtitle">В&nbsp;доме есть абсолютно все!</h3>
+              <p class="work-1__text">
+                Сaуна, xамaм, переливной басcейн с&nbsp;пpoтивoтoкoм, бильярд,
+                кабинет, домашний кинотеатр, мангальный зона, парковка. Очень
+                большой бассеин. Чистый и&nbsp;выровненный участок! Сосновый лес
+                на&nbsp;участке и&nbsp;вокруг дома!
+              </p>
+              <p class="work-1__desc">
+                Осталось сделать только внутреннюю и&nbsp;внешнюю отделку!
+              </p>
+            </div>
+            <div class="work-1__inner-img">
+              <!-- <picture class="work-1__inner-picture">
+                <source
+                  srcset="./img/schema-img.jpg"
+                  media="(max-width: 600px)"
+                />
+                <source
+                  srcset="./img/schema-img.jpg"
+                  media="(min-width: 601px)"
+                /> -->
+              <img
+                src="./img/schema-img.jpg"
+                class="work-1__img"
+                alt="Схема проекта"
+              />
+              <!-- </picture> -->
+            </div>
+          </div>
+          <div class="grid-item"></div>
+        </div>
+      </section>
+      <section class="video">
+        <video
+          class="video__video"
+          src=""
+          poster="img/content-1-img.jpg"
+        ></video>
+      </section>
+      <section class="about--1">
+        <div class="grid-container">
+          <div class="grid-s-2">
+            <h2 class="about--1__title">В&nbsp;доме есть абсолютно все!</h2>
+            <div class="about--1__inner">
+              <h3 class="about--1__subtitle">
+                Коротко <span>о&nbsp;главном</span>
+              </h3>
+              <div class="about--1__wrapp-list">
+                <ul class="about--1__list">
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Количество комнат:</span> 10
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Площадь дома:</span> 900&nbsp;м&sup2;
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Площадь участка:</span> 21&nbsp;сот.
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Этажей в&nbsp;доме:</span> 2
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Высота потолков:</span> 7&nbsp;метров
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Для отдыха:</span> баня, сауна, бассейн
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Категория земель:</span> индивидуальное жилищное
+                      строительство (ИЖС)
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Год постройки:</span> 2024
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Материал стен:</span> дюрисол
+                    </p>
+                  </li>
+                </ul>
+                <ul class="about--1__list">
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Терраса или веранда:</span> есть
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Санузел:</span> в&nbsp;доме
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Коммуникации:</span> электричество, газ, отопление,
+                      канализация, вода централизованная
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Интернет и&nbsp;ТВ:</span> Wi-Fi, телевидение
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Парковка:</span> гараж и&nbsp;навес
+                      на&nbsp;2&nbsp;авто
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Транспортная доступность:</span> остановка
+                      общественного транспорта, железнодорожная станция
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Инфраструктура:</span> магазин, аптека, детский сад,
+                      школа
+                    </p>
+                  </li>
+                  <li class="about--1__item">
+                    <p class="about--1__text">
+                      <span>Расстояние от&nbsp;КАД:</span> 15&nbsp;км
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item"></div>
+        </div>
+      </section>
+      <section class="work--2">
+        <div class="work--2__container container">
+          <h2 class="work--2__title title">
+            Предлагаем подробнее ознакомиться с&nbsp;планировкой
+            <span>вашего будущего дома</span>
+          </h2>
+        </div>
+        <div class="grid-container">
+          <div class="grid-item">
+            <ul class="work--2__list">
+              <li class="work--2__item active"><span>ФАСАД</span></li>
+              <li class="work--2__item"><span>1&nbsp;ЭТАЖ</span></li>
+              <li class="work--2__item"><span>2&nbsp;ЭТАЖ</span></li>
+              <li class="work--2__item"><span>ПАРКОВКА</span></li>
+              <li class="work--2__item"><span>НАВЕС</span></li>
+            </ul>
+          </div>
+          <div class="grid-item">
+            <!-- <picture class="work--2__inner-picture">
+              <source
+                srcset="./img/schema-img.jpg"
+                media="(max-width: 600px)"
+              />
+              <source
+                srcset="./img/schema-img.jpg"
+                media="(min-width: 601px)"
+              /> -->
+            <img
+              class="work--2__inner-picture"
+              loading="lazy"
+              src="./img/schema-1-img.png"
+              alt="Схема проекта"
+            />
+            <!-- </picture> -->
+          </div>
+          <div class="grid-item"></div>
+        </div>
+      </section>
+      <section class="work--3">
+        <div class="work--3__container container">
+          <div class="work--3__inner-left">
+            <h2 class="work--3__title title">
+              Ознакомьтесь и&nbsp;с&nbsp;<span>отчетом</span> о&nbsp;ходе
+              выполненных работ
+            </h2>
+            <ul class="work--3__list">
+              <li class="work--3__item">
+                <img
+                  src="img/report-1-img.jpg"
+                  alt="Фотография о ходе выполнения работ"
+                  class="work--3__img"
+                />
+                <h3 class="work--3__subtitle">Установка окон</h3>
+                <p class="work--3__text">Премиальное качество</p>
+                <p class="work--3__text">Энергоэффективность</p>
+                <p class="work--3__text">Гарантия 25&nbsp;лет</p>
+                <p class="work--3__text">Современное производство</p>
+              </li>
+              <li class="work--3__item">
+                <img
+                  src="img/report-2-img.jpg"
+                  alt="Фотография о ходе выполнения работ"
+                  class="work--3__img"
+                />
+                <h3 class="work--3__subtitle">Установка окон</h3>
+                <p class="work--3__text">Премиальное качество</p>
+                <p class="work--3__text">Энергоэффективность</p>
+                <p class="work--3__text">Гарантия 25&nbsp;лет</p>
+                <p class="work--3__text">Современное производство</p>
+              </li>
+              <li class="work--3__item">
+                <img
+                  src="img/report-3-img.jpg"
+                  alt="Фотография о ходе выполнения работ"
+                  class="work--3__img"
+                />
+                <h3 class="work--3__subtitle">Установка окон</h3>
+                <p class="work--3__text">Премиальное качество</p>
+                <p class="work--3__text">Энергоэффективность</p>
+                <p class="work--3__text">Гарантия 25&nbsp;лет</p>
+                <p class="work--3__text">Современное производство</p>
+              </li>
+            </ul>
+          </div>
+          <div class="work--3__inner-right">
+            <ul class="work--3__list">
+              <li class="work--3__item">
+                <img
+                  src="img/report-4-img.jpg"
+                  alt="Фотография о ходе выполнения работ"
+                  class="work--3__img"
+                />
+                <h3 class="work--3__subtitle">Установка окон</h3>
+                <p class="work--3__text">Премиальное качество</p>
+                <p class="work--3__text">Энергоэффективность</p>
+                <p class="work--3__text">Гарантия 25&nbsp;лет</p>
+                <p class="work--3__text">Современное производство</p>
+              </li>
+              <li class="work--3__item">
+                <img
+                  src="img/report-5-img.jpg"
+                  alt="Фотография о ходе выполнения работ"
+                  class="work--3__img"
+                />
+                <h3 class="work--3__subtitle">Установка окон</h3>
+                <p class="work--3__text">Премиальное качество</p>
+                <p class="work--3__text">Энергоэффективность</p>
+                <p class="work--3__text">Гарантия 25&nbsp;лет</p>
+                <p class="work--3__text">Современное производство</p>
+              </li>
+              <li class="work--3__item">
+                <img
+                  src="img/report-6-img.jpg"
+                  alt="Фотография о ходе выполнения работ"
+                  class="work--3__img"
+                />
+                <h3 class="work--3__subtitle">Установка окон</h3>
+                <p class="work--3__text">Премиальное качество</p>
+                <p class="work--3__text">Энергоэффективность</p>
+                <p class="work--3__text">Гарантия 25&nbsp;лет</p>
+                <p class="work--3__text">Современное производство</p>
+              </li>
+              <li class="work--3__item btn">
+                <button class="work--3__btn">показать еще</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="work--4">
+        <div class="work--4__container container">
+          <div class="work--4__inner-left">
+            <h2 class="work--4__title title">Как будет выглядеть дом?</h2>
+            <div class="work--4__inner-text">
+              <h3 class="work--4__subtitle">
+                Мы&nbsp;разработали дизайн-проект будущего дома, как
+                он&nbsp;будет выглядеть с&nbsp;полной отделкой
+              </h3>
+              <p class="work--4__text">
+                Но&nbsp;вы&nbsp;можете сделать ее&nbsp;и&nbsp;на&nbsp;свое
+                усмотрение
+              </p>
+            </div>
+          </div>
+          <div class="work--4__inner-right">
+            <ul class="work--4__list">
+              <li class="work--4__item">
+                <img
+                  src="img/work-2-img.jpg"
+                  alt="Дизайн-проект будущего дома"
+                  class="work--4__img"
+                />
+              </li>
+              <li class="work--4__item">
+                <img
+                  src="img/work-3-img.jpg"
+                  alt="Дизайн-проект будущего дома"
+                  class="work--4__img"
+                />
+              </li>
+              <li class="work--4__item">
+                <img
+                  src="img/work-4-img.jpg"
+                  alt="Дизайн-проект будущего дома"
+                  class="work--4__img"
+                />
+              </li>
+              <li class="work--4__item">
+                <img
+                  src="img/work-5-img.jpg"
+                  alt="Дизайн-проект будущего дома"
+                  class="work--4__img"
+                />
+              </li>
+              <li class="work--4__item">
+                <img
+                  src="img/work-6-img.jpg"
+                  alt="Дизайн-проект будущего дома"
+                  class="work--4__img"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="about--2">
+        <div class="grid-container">
+          <div class="grid-item"></div>
+          <div class="grid-item">
+            <h2 class="about--2__title title">
+              <span
+                >Сейчас дом выполнен на&nbsp;<span class="font">80%</span></span
+              >
+              и&nbsp;полностью готов к&nbsp;этапу отделки по&nbsp;нашему или
+              по&nbsp;вашему проекту
+            </h2>
+          </div>
+          <div class="grid-item"></div>
+        </div>
+      </section>
+      <section class="request--1">
+        <div class="request--1__container container">
+          <div class="grid-item">
+            <h2 class="request--1__title title">
+              Предлагаем записаться&nbsp;на
+            </h2>
+            <h2 class="request--1__title title font">бесплатный</h2>
+            <div class="grid-span">
+              <h2 class="request--1__title title">
+                просмотр в&nbsp;удобное для вас время
+              </h2>
+              <p class="request--1__desc">
+                или позвоните нам
+                <a class="request--1__link" href="tel:+78126701070"
+                  >+7 (812) 670-10-70</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <form class="request--1__form" action="#">
+              <label class="label-input">
+                <input
+                  class="input"
+                  type="text"
+                  name="FirstName"
+                  placeholder="Ваше имя"
+                />
+              </label>
+              <label class="label-input">
+                <input
+                  class="input"
+                  type="text"
+                  name="tel"
+                  placeholder="Телефон"
+                />
+              </label>
+              <label class="label-input">
+                <input
+                  class="input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                />
+              </label>
+              <label class="label-agree">
+                <input class="agree" type="checkbox" name="agree" />
+                <span class="custom-checkbox tooltip-container"></span>
+                <span class="label__span">
+                  <span class="label__span-text">
+                    Нажимая кнопку вы&nbsp;соглашаетесь с&nbsp;условиями
+                  </span>
+                  <a href="#" class="politic"> Политикой конфиденциальности </a>
+                </span>
+              </label>
+              <button class="request--1__btn">Оставить запрос</button>
+            </form>
+          </div>
+          <div class="grid-item"></div>
+        </div>
+      </section>
+      <section class="work--5">
+        <div class="work--5__container container"></div>
+      </section>
+      <section class="work--6">
+        <div class="work--6__container container"></div>
+      </section>
+      <section class="about--3">
+        <div class="about--3__container container"></div>
+      </section>
+      <section class="about--4">
+        <div class="about--4__container container"></div>
+      </section>
+      <section class="about--5">
+        <div class="about--5__container container"></div>
+      </section>
+      <section class="about--6">
+        <div class="about--6__container container"></div>
+      </section>
+      <section class="request--2">
+        <div class="request--2__container container"></div>
+      </section>
     </main>
     <footer></footer>
     <script src="js/script.js"></script>

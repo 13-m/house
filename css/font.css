@@ -2,26 +2,18 @@
 
 @font-face {
   font-family: "Futura PT";
-  src: local("Futura PT Heavy"), local("FuturaPT-Heavy"),
-    url("../font/FuturaPT-Heavy.woff2") format("woff2");
-  font-weight: 900;
+  src: local("Futura PT Book"), local("FuturaPT-Book"),
+    url("../font/FuturaPT-Book.woff2") format("woff2");
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Futura PT";
-  src: local("Futura PT Heavy Oblique"), local("FuturaPT-HeavyObl"),
-    url("../font/FuturaPT-HeavyObl.woff2") format("woff2");
-  font-weight: 900;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Futura PT";
-  src: local("Futura PT Light Oblique"), local("FuturaPT-LightObl"),
-    url("../font/FuturaPT-LightObl.woff2") format("woff2");
-  font-weight: 300;
-  font-style: italic;
+  font-family: "Futura PT Cond";
+  src: local("Futura PT Cond Book"), local("FuturaPTCond-Book"),
+    url("../font/FuturaPTCond-Book.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -33,58 +25,10 @@
 }
 
 @font-face {
-  font-family: "Futura PT Cond Book";
-  src: local("Futura PT Cond Book"), local("FuturaPTCond-Book"),
-    url("../font/FuturaPTCond-Book.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Futura PT Book";
-  src: local("Futura PT Book Oblique"), local("FuturaPT-BookObl"),
-    url("../font/FuturaPT-BookObl.woff2") format("woff2");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Futura PT Demi";
+  font-family: "Futura PT";
   src: local("Futura PT Demi"), local("FuturaPT-Demi"),
     url("../font/FuturaPT-Demi.woff2") format("woff2");
   font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Futura PT Demi";
-  src: local("Futura PT Demi Oblique"), local("FuturaPT-DemiObl"),
-    url("../font/FuturaPT-DemiObl.woff2") format("woff2");
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Futura PT Cond Book";
-  src: local("Futura PT Cond Book Oblique"), local("FuturaPTCond-BookObl"),
-    url("../font/FuturaPTCond-BookObl.woff2") format("woff2");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Futura PT Book";
-  src: local("Futura PT Book"), local("FuturaPT-Book"),
-    url("../font/FuturaPT-Book.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Futura PT Cond";
-  src: local("Futura PT Cond Medium"), local("FuturaPTCond-Medium"),
-    url("../font/FuturaPTCond-Medium.woff2") format("woff2");
-  font-weight: 500;
   font-style: normal;
 }
 
@@ -97,19 +41,11 @@
 }
 
 @font-face {
-  font-family: "Futura PT";
-  src: local("Futura PT Medium Oblique"), local("FuturaPT-MediumObl"),
-    url("../font/FuturaPT-MediumObl.woff2") format("woff2");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
   font-family: "Futura PT Cond";
-  src: local("Futura PT Cond Medium Oblique"), local("FuturaPTCond-MediumObl"),
-    url("../font/FuturaPTCond-MediumObl.woff2") format("woff2");
+  src: local("Futura PT Cond Medium"), local("FuturaPTCond-Medium"),
+    url("../font/FuturaPTCond-Medium.woff2") format("woff2");
   font-weight: 500;
-  font-style: italic;
+  font-style: normal;
 }
 
 @font-face {
