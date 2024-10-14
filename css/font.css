@@ -6,6 +6,7 @@
     url("../font/FuturaPT-Book.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
     url("../font/FuturaPTCond-Book.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -22,6 +24,7 @@
     url("../font/FuturaPT-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -30,6 +33,7 @@
     url("../font/FuturaPT-Demi.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -38,6 +42,7 @@
     url("../font/FuturaPT-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -46,6 +51,7 @@
     url("../font/FuturaPTCond-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -53,4 +59,5 @@
   src: url("../font/miama_nueva.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
+  font-display: block;
 }

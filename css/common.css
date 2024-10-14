@@ -115,6 +115,7 @@ body.lock {
   outline: none;
   border: none;
   color: #3e352e;
+  font-size: 22px;
 }
 
 .input::placeholder {
